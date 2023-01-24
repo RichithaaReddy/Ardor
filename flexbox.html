@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+            .main{
+                background-color: white;
+                display: flex;  
+                flex-direction:row;
+            }
+            div{
+                background-color: white;
+            }
+            ul{
+              display: flex;    /*  to display in single row or column*/
+              list-style-type: none;  /* removing bullets */
+              flex-direction: row;
+              flex-grow: 3; /* spacing btwn each element  */
+             
+            }
+            li{
+               margin:10px;
+            }
+            form{
+                padding:10px;
+            }
+            button{
+                border-radius: 2px;
+                width: 40px;
+                flex-grow: 1;
+                padding: 10px;
+            }
+            a:link{
+                color: wheat;
+                text-decoration: none;  /* to remove underlining */
+            }
+
+
+
+        </style>
+
+    </head>
+    <body bgcolor="lightpink">
+        <div class="main">
+            <ul>
+                <li><img src="myntra.jpeg" height="45"></li>
+           
+                <li> <a href="home.html">home</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="index.html">register</a></li>
+                <li><a href="i.html">service</a></li>
+              </ul>
+
+              <form align="right">
+                <input type="search" placeholder="search">
+                <button>go</button>
+             
+           
+             </form>
+        </div>
+       
+    </body>
+</html>

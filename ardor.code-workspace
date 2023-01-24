@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "ardor",
+		"path": ".."
+	},
+	{
+		"name": "temp",
+		"path": "."
+	}
+],
+  "settings": {}
+}
